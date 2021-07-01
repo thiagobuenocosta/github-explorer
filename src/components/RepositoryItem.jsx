@@ -8,7 +8,7 @@ export function RepositoryItem(props) {
             <p>{  props.repository?.description ?? 'Description repo' }</p>
 
             <a 
-                href={  props.repository?.link ?? '#' }
+                href={  props.repository?.html_url ?? '#' }
                 target="blank"
             >
                 Acessar repositório
